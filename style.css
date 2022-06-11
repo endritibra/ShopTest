@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(249, 236, 236);
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+nav .navi ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type:none;
+}
+.navi ul li{
+    padding: 30px;
+}
+.navi ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+
+
+.flexi{
+    margin: 50px auto;
+    height:600px;
+    width: 950px;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap:30px;
+ 
+}
+.item img{
+    height: 250px;
+    width: 200px;
+    border-radius: 7px;
+}
